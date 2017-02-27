@@ -27,3 +27,6 @@ body {
   line-height: 1;
   letter-spacing: -1px;
 }
+.parallax-container {
+      height: 800px;
+    }
