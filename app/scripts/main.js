@@ -7,16 +7,14 @@ $(document).ready(function(){
 
         var chart = d3.select('.chart');
 
-        // data converted from TSV to JS array
         var data = [
         {name: 'HTML', value: 90},
         {name: 'CSS', value: 90},
         {name: 'PHP', value: 60},
-        {name: 'PHOTOSHOP', value: 70},
+        {name: 'JAVASCRIPT', value: 60},
         {name: 'UI/UX DESIGN', value: 70}
         ];
 
-        // coerce to number
         data.forEach(function(d){
           d.value = +d.value;
         });
@@ -25,7 +23,6 @@ $(document).ready(function(){
           return d.value;
         });
 
-        // sort data
         data.sort(function(a, b){
           return Number(b.value) - Number(a.value);
         });

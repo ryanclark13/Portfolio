@@ -46,6 +46,9 @@ h1{
     background-size: cover;
     color: white;
 }
+.name{
+  padding-left: 30px;
+}
 .heading {
   padding-top: 50px;
   color: white;
@@ -70,7 +73,8 @@ h1{
   font-size: 20px;
 }
 .container{
-  padding-bottom: 20px;
+  padding-top:;
+  padding-bottom: 50px;
 }
 .section{
   /* background-color: #3295be; */
