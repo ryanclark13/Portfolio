@@ -6,27 +6,149 @@
 }
 
 body {
+  min-height: 200vh;
   background: #fafafa;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
 }
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 300px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
+ main {
+   flex: 1 0 auto;
+ }
+h1{
+  font-size: 90px;
 }
-
 .hero-unit h1 {
   font-size: 60px;
   line-height: 1;
   letter-spacing: -1px;
 }
 .parallax-container {
-      height: 800px;
-    }
+  background: rgba(34,125,170,1);
+    background: -moz-linear-gradient(top, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(34,125,170,1)), color-stop(100%, rgba(81,172,205,1)));
+    background: -webkit-linear-gradient(top, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+    background: -o-linear-gradient(top, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+    background: -ms-linear-gradient(top, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+    background: linear-gradient(to bottom, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+    display: table;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+.heading {
+  padding-top: 50px;
+  color: white;
+  padding-left:100px;
+  padding-top:200px ;
+}
+.secondheading{
+  color: white;
+  padding-left:100px;
+  padding-top: ;
+}
+.desktop{
+  padding-left: 100px;
+}
+.about{
+  font-size: 50px;
+  overflow: hidden;
+  border-color: black;
+  border-bottom: 2px solid;
+}
+.aboutcontent{
+  font-size: 20px;
+}
+.container{
+  padding-bottom: 20px;
+}
+.section{
+  /* background-color: #3295be; */
+  background: rgba(34,125,170,1);
+  background: -moz-linear-gradient(top, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(34,125,170,1)), color-stop(100%, rgba(81,172,205,1)));
+  background: -webkit-linear-gradient(top, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+  background: -o-linear-gradient(top, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+  background: -ms-linear-gradient(top, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+  background: linear-gradient(to bottom, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#227daa', endColorstr='#51accd', GradientType=0 );
+}
+.experience{
+  font-size: 50px;
+  color: white;
+  overflow: hidden;
+  border-color: black;
+  border-bottom: 2px solid;
+}
+.experiencecontent{
+  padding-top: 20px;
+}
+.experiencecontent2{
+  padding-top: 25px;
+}
+.skillset{
+  font-size: 50px;
+  color: black;
+  overflow: hidden;
+  border-color: black;
+  border-bottom: 2px solid;
+}
+.section3{
+  /* background-color: #3295be; */
+  background: rgba(34,125,170,1);
+  background: -moz-linear-gradient(top, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(34,125,170,1)), color-stop(100%, rgba(81,172,205,1)));
+  background: -webkit-linear-gradient(top, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+  background: -o-linear-gradient(top, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+  background: -ms-linear-gradient(top, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+  background: linear-gradient(to bottom, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#227daa', endColorstr='#51accd', GradientType=0 );
+}
+.education{
+  font-size: 50px;
+  color: white;
+  overflow: hidden;
+  border-color: white;
+  border-bottom: 2px solid;
+  padding-top: 30px;
+}
+.class{
+  font-size: 14px;
+}
+.educationcontent{
+  padding-top: 20px;
+  padding-bottom: px;
+}
+.chart .bar {
+  position: relative;
+  background-color: steelblue;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.chart .bar .label {
+  position: absolute;
+  top: 9px;
+  right: 15px;
+  color: white;
+  font: 18px sans-serif;
+}
+
+.chart .bar .name {
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  color: white;
+  font: 18px sans-serif;
+  opacity: .5;
+}

@@ -22,47 +22,196 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+    <link rel="stylesheet" text="text/css" href="css/font-awesome.min.css">
+    <!-- d3.js -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
   </head>
   <body>
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
-    </div>
-  </nav>
 
-  <img src="app/images/bnner.jpg" alt="banner">
-app/images/banner.jpg
+ <!-- hero image -->
+ <div class="parallax-container">
+   <h5 class="name">Ryan<strong>Clark</stong></h5>
+    <h1 class="heading">Web Designer <i class="fa fa-desktop" aria-hidden="true"></i></h1>
+    <h5 class="secondheading">I design and build web apps.</h5>
+  <div class="parallax"></div>
+  <div class="desktop"> </div>
+</div>
+<!-- end hero image -->
 
-  <div class="section white">
-    <div class="row container">
-      <h2 class="header">Parallax</h2>
-      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+<div class="container">
+  <div class="row">
+
+    <h1 class="about">About</h1>
+    <div class="col s2"><i class="fa fa-user" style="font-size:50px" aria-hidden="true"></i> </div>
+      <div class="col s10"><p class="flow-text">
+        <div class="aboutcontent">
+          I am a desinger and developer. I prefer working on front-end design, but I also have the ability to work on the back end.
+          I write in CSS, HTML, Javascript, and PHP. I also know how to work with databases.
+
+
+        </div>
+
+
     </div>
   </div>
-  <div class="parallax-container">
-    <div class="parallax"><img src="https://www.flowebdesign.ie/library/slides/webdesign_portfolio.jpg"></div>
 
+</div>
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <h1 class="experience">Experience</h1>
+    <div class="col s2"><i class="fa fa-briefcase" style="font-size:50px;color:white;" aria-hidden="true"></i></div>
+      <div class="col s10"><p class="flow-text"><font color="white">
+
+        <div class="small">January 2013 - April 2013</div>
+        <h5>Steak N' Shake</h5>
+        <div class="divider"></div>
+
+
+        <div class="experiencecontent">
+        <div class="small">May 2014 - July 2014</div>
+        <h5>Digitech</h5>
+        Created logos and signage.
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="experiencecontent2">
+        <div class="small">July 2016 - November 2016</div>
+        <h5>Sam's Club Cashier</h5>
+        </div>
+
+
+
+
+
+      </font></p>
+      </div>
+    </div>
   </div>
+</div>
+<div class="section2">
+  <div class="container">
+    <div class="row">
+      <h1 class="skillset">Skillset</h1>
+    <div class="col s2"><i class="fa fa-code" style="font-size:50px" aria-hidden="true"></i></div>
+      <div class="col s10"><p class="flow-text">
+
+        <!-- bar chart -->
+
+      <div class="demo">
+        <div class="chart"></div>
+      </div>
+
+      <!--end bar chart -->
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section3">
+  <div class="container">
+    <div class="row">
+      <h1 class="education">Education</h1>
+    <div class="col s2"><i class="fa fa-graduation-cap" style="font-size:50px; color:white;" aria-hidden="true"></i></div>
+
+      <div class="col s10">
+
+        <p class="flow-text">
+          <font color="white">
+          <div class="small">2013</div>
+          <h5>Associates Degree, Liberal Arts</h5>
+          Polk State College
+
+          <div class="divider"></div>
 
 
-      <div class="hero-unit">
-      <h1>'Allo Hey, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Modernizr</li>
-        <li>jQuery</li>
-      </ul>
+          <div class="educationcontent">
+          <div class="small">2017(expected)</div>
+          <h5>Bachelors Degree, Digital Media-Web Design</h5>
+          University of Central Florida
+          </div>
+
+
+        </font></p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- portfolio section -->
+<div class="container">
+  <div class="row">
+
+    <h1 class="about">Selected Works</h1>
+    <div class="col s2"><i class="fa fa-pencil" style="font-size:50px"; aria-hidden="true"></i></div>
+    <div class="col l4 m8 offset-m2 s12">
+
+          <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="images/honeybadger.png">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Honeybadger Website<i class="material-icons right">more_vert</i></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Honeybadger Website<i class="material-icons right">close</i></span>
+        <p>Website that I created with HTML, CSS, and JQuery.</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="col l4 m8 offset-m2 s12">
+
+        <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="images/ClarkRyanST.png">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Photoshop<i class="material-icons right">more_vert</i></span>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Photoshop<i class="material-icons right">close</i></span>
+      <p>A piece I created in Photoshop.</p>
     </div>
 
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- end portfolio section -->
+
+
+
+<!-- footer -->
+<div class="divider"></div>
+<footer class="page-footer #000000 black">
+         <div class="container">
+           <div class="row">
+             <div class="col l6 s12">
+               <i class="fa fa-envelope" style="font-size:50px; color:white;" aria-hidden="true"></i>
+               <h5 class="white-text">LETS TALK</h5>
+               <p class="grey-text text-lighten-4">ryansclark@knights.ucf</p>
+             </div>
+
+           </div>
+         </div>
+         <div class="footer-copyright">
+           <div class="container">
+           © 2014 RC3
+           </div>
+         </div>
+       </footer>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
